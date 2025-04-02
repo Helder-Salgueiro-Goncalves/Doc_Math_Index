@@ -1,2 +1,50 @@
 # Bienvenue sur ma documentation
-Ceci est ma documentation hébergée sur GitHub Pages.
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation du Projet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Téléchargement des fichiers</h1>
+        <a href="Arborescence_dapplication.pdf" class="btn" download>Télécharger Arborescence d'Application</a>
+        <a href="Graph_bd.pdf" class="btn" download>Télécharger Graph BD</a>
+        <a href="Guide_utilisateur.zip" class="btn" download>Télécharger Guide Utilisateur</a>
+        <a href="UIKIT_1.pdf" class="btn" download>Télécharger UIKIT 1</a>
+    </div>
+</body>
+</html>
